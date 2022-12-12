@@ -12,7 +12,7 @@ function Crypto() {
     useEffect(()=>
     {
         (async function(){ 
-         await axios.get("https://api.coinstats.app/public/v1/coins?skip=0&limit=5&currency=EUR")
+         await axios.get("https://api.coinstats.app/public/v1/coins?skip=0&limit=10&currency=EUR")
         .then(res=>updateCoins(res.data.coins))
         })()
     },[])
