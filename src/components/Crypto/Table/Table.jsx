@@ -1,6 +1,6 @@
 function Table({coins,query}) {
 
-    let keys=["name","rank","price"];
+    let keys=["name","rank","price","symbol"];
 
     return ( 
         <>
@@ -11,6 +11,7 @@ function Table({coins,query}) {
                             <th>Rank</th>
                             <th>Icon</th>
                             <th>Name</th>
+                            <th>Symbol</th>
                             <th>Price</th>
                         </tr>
                     </thead>
@@ -32,6 +33,7 @@ function Table({coins,query}) {
                     <td>{coin.rank}</td>
                     <td><img src={coin.icon} alt={coin.name} /></td>
                     <td>{coin.name}</td>
+                    <td>{coin.symbol}</td>
                     <td>{coin.price}</td>
                 </tr>
 
