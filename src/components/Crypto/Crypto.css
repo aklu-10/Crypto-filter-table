@@ -1,0 +1,58 @@
+.crypto
+{
+    margin-top: 4%;
+    width:100%;
+    font-family: sans-serif;
+}
+
+.margin
+{
+    margin:0 auto;
+    display: block;
+}
+
+.table_wrapper
+{
+    width: 90%;
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+.crypto input
+{
+    width:90%;
+    padding: 10px;
+    margin-bottom: 4%;
+}
+
+table
+{
+    margin: 0 auto;
+    width:100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead
+{
+    background-color: orangered;
+    color:white;
+    
+}
+
+th
+{
+    padding: 8px;
+}
+
+td
+{
+    border:1px solid gray;
+    padding: 8px;
+}
+
+td img
+{
+    width:20px;
+}
+
